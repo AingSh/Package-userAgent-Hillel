@@ -2,8 +2,9 @@
 
 namespace AingSh\Alexander\UserAgentParserHillel;
 
-use App\Services\Geo\UserAgentService;
+use donatj\UserAgent\UserAgentInterface;
 use Illuminate\Support\ServiceProvider;
+
 
 class UserAgentServiceProvider extends ServiceProvider
 {
