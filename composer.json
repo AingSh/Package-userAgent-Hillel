@@ -1,0 +1,31 @@
+{
+    "name": "alexander/user-agent-parser-hillel",
+    "description": "userAgentparser+package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AingSh\\Alexander\\UserAgentParserHillel\\": "./src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "geoip2/geoip2": "~2.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "donatj/phpuseragentparser": "^1.7"
+    },
+    "authors": [
+        {
+            "name": "alexander",
+            "email": "alex.shklyarenko22@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AingSh\\Alexander\\UserAgentParserHillel\\UserAgentServiceProvider"
+            ]
+        }
+    }
+
+}
